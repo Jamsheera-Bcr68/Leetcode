@@ -11,7 +11,7 @@ var duplicateZeros = function(arr) {
         i++
     }
  }
- 
+                                                                    
 };
 let arr=[1,0,2,3,0,4,5,0]
 console.log(duplicateZeros(arr));
