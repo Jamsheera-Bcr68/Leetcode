@@ -14,7 +14,7 @@
 
 var canPlaceFlowers=(flowerbed,n)=>{
 for(let i=0;i<flowerbed.length&&n!==0;i++){
-    if(flowerbed[i]==0&&flowerbed[i-1]!==1)
+    if(flowerbed[i]==0&&flowerbed[i-1]!==1){}
 }
 }
 let flowerbed = [1, 0, 0, 0, 0, 0, 1];
