@@ -12,7 +12,7 @@ var sortedArrayToBST = function(nums) {
     let mid=Math.floor(n/2)
     let root=new TreeNode(nums[mid])
     root.left=sortedArrayToBST(nums.slice(0,mid))
-    root.right=sortedArrayToBST(nums.slice(mid))
+    root.right=sortedArrayToBST(nums.slice(mid110))
     return root
 };
  nums = [-10,-3,0,5,9]
