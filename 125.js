@@ -9,20 +9,9 @@ let s = "A man, a plan, a canal: Panama"
  
 
 
-var isPalindrome = function(s) {
-    let stack=s.toLowerCase().trim().split('')
-
-    function rev(stack){
-        if(!stack.length)return ''
-        let res=stack.pop()
-        return res+rev(stack)
-    }
-    let result=rev(stack)
-    return result===s
-};
 
 
 
  
-console.log(isPalindrome(s));
+
 
